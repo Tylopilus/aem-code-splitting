@@ -1,5 +1,8 @@
-
 @import 'variables';
 @import 'base';
-@import '../components/**/*.scss';
+// @import '../components/**/*.scss';
 @import './styles/*.scss';
+
+[data-cmp-is='carousel'] {
+	color: red;
+}
